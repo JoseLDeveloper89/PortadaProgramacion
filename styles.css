@@ -1,0 +1,50 @@
+.bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+header{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: wheat;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.svp{
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.bg-text {
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
